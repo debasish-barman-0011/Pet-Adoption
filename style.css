@@ -1,0 +1,62 @@
+
+/* Adjust size of carousel images for small screens */
+.carousel-item img {
+  max-height: 400px; /* Adjust as needed */
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Center the carousel on larger screens */
+@media (min-width: 768px) {
+  .carousel {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  .carousel-item img {
+    min-height: 400px; /* Reduce the maximum height */
+    width: auto;
+  }
+}
+
+/* Adjust size of carousel images for small screens */
+.carousel-item img {
+  max-height: 400px; /* Adjust as needed */
+  width: auto;
+  margin: 0 auto;
+}
+
+
+/* Others Stylings */
+
+span,h1,h2{
+  color: #9D6F24;
+}
+
+
+h4{
+  color: #786D92;
+}
+h5{
+  color: #0055FF;
+}
+#tagline{
+  color: #00b609;
+}
+
+
+.card {
+  height: auto;
+}
+.card-img-top {
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire area */
+}
+.card-body {
+  height: auto; /* Set a fixed height for the card bodies */
+  overflow: hidden; /* Hide any overflow content */
+}
