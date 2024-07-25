@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Make Adoption Your First Option | ADOPT FORM</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <style>
+    .banner-img {
+      width: 100%;
+      height: auto;
+    }
+
+    h4 {
+      text-align: center;
+      color: #5ac15a;
+    }
+
+    span {
+      color: #9D6F24;
+    }
+
+    .navbar-brand img {
+      height: 40px;
+    }
+
+    footer a {
+      color: #5ac15a;
+    }
+  </style>
+</head>
+
+<body class="bg-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="">
+      <img src="./images/logo.png" alt="Logo">
+      ADOPT MEEE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Home">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Popular">Popular Pets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Domestic">Domestic Pets</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Contact">Contact Us</a>
+        </li>
+
+      </ul>
+      <button id="contributeBtn" class="btn btn-outline-success my-2 my-sm-0" type="button">Contribute</button>
+    </div>
+  </nav>
+
+  <!-- Form -->
+  <div class="container mt-4 bg-light">
+    <form id="adoptionForm" style="overflow-x: hidden;">
+      <img src="./images/banner.jpg" class="banner-img" alt="Banner">
+      <h4>Adoption Your First Option <br><span>Bringing Love to Home</span></h4>
+      <div class="form-row form-group px-3 py-4">
+        <div class="form-group col-md-6">
+          <label for="name">First Name</label>
+          <input type="text" class="form-control" id="name" placeholder="" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="lname">Last Name</label>
+          <input type="text" class="form-control" id="lname" placeholder="" required>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-group col-md-2">
+          <label for="phone">Phone</label>
+          <input type="number" class="form-control" id="phone" required>
+        </div>
+
+        <div class="form-group col-md-4">
+          <label for="inputState">Pet Name</label>
+          <select id="inputPet" class="form-control">
+            <option selected>Select Pet</option>
+            <option value="#">MAX</option>
+            <option value="#">TOM</option>
+            <option value="#">POLLY</option>
+            <option value="#">PICKU</option>
+            <option value="#">PUSHPA</option>
+            <option value="#">THUMPER</option>
+            <option value="#">DUKE</option>
+            <option value="#">HOOPOE</option>
+            <option value="#">DAISY</option>
+            <option value="#">PERCY</option>
+            <option value="#">ELLIE</option>
+            <option value="#">ZAARA</option>
+            <option value="#">BUDDY</option>
+            <option value="#">KASTURI</option>
+            <option value="#">RUBBY</option>
+            <option value="#">TUX</option>
+            <option value="#">WHISKERS</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group px-3 py-4">
+        <label for="inputAddress">Permanent Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="302, JatinDasPark, Kol" required>
+      </div>
+      <div class="form-group px-3 py-4">
+        <label for="inputAddress2">Present Address</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, Landmark, Temple" required>
+      </div>
+      <div class="form-row form-group px-3 py-4">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+            <option selected>Select State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-2">
+          <label for="inputZip">Pin Code</label>
+          <input type="number" class="form-control" id="inputZip" required>
+        </div>
+      </div>
+
+      <div class="form-group px-3 py-4">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+          <label class="form-check-label" for="gridCheck">
+            I agree all the terms & conditions of ADOPT MEEE
+          </label>
+        </div>
+      </div>
+      <div class="form-group px-3 py-4">
+        <button type="submit" class="btn btn-success">Request a Pet</button>
+        <button type="reset" class="btn btn-warning">Reset Form</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 ADOPT MEEE|| All rights reserved|| Developed by <a
+          href="https://dbport.netlify.app#about">|Debasish Barman|</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.querySelector('form');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Sweet Alert //
+        Swal.fire({
+          title: 'Success!',
+          text: 'Your adoption request has been submitted.',
+          icon: 'success',
+          confirmButtonText: 'OK'
+        }).then((result) => {
+          if (result.isConfirmed) {
+            form.reset();
+            // window.location.href = 'thank-you.html';
+          }
+        });
+      });
+    });
+  </script>
+  <!-- QR Code Genarate -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const contributeBtn = document.getElementById('contributeBtn');
+      contributeBtn.addEventListener('click', function () {
+        Swal.fire({
+          title: 'Contribute',
+          html: `
+                  <img src="./images/MYQR.png" alt="QR Code" style="width: 200px; height: 200px;">
+                  <p style="margin-top: 20px; font-size: 18px;"><strong>Please Scan The QR</strong></p>
+              `,
+          showCloseButton: true,
+          showConfirmButton: false
+        });
+      });
+    });
+  </script>
+
+  <!-- End of JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
